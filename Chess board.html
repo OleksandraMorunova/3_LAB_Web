@@ -1,0 +1,191 @@
+<!DOCTYPE html!>
+<head>
+        <meta charset="utf-8">
+        <title>Chess board</title>
+    <style>
+      body {
+      	background: #f0f2ea;
+      	border:0;
+    }
+    div {
+    	width: 150px; 
+        margin: auto; 
+    }
+.chess {
+	display: table;
+}
+.chess_main {
+	display: table-row;
+}
+.chess_light {
+ background: #FFFFFF; 
+ width: 980px;
+ height: 80px;
+ text-align: center;
+ display: table-cell;
+}
+.chess_dark {
+ background: #2F4F4F; 
+ width: 75px;
+ height: 75px;
+ text-align: center;
+ display: table-cell;
+}
+.chess_letter {
+ font-size: 18px;
+ display: table-cell; 
+ width: 20px;
+ height: 20px;
+ background: #BEBEBE;
+ text-align: center;
+}
+.chess_number {
+ font-size: 18px;
+ display: table-cell; 
+ text-align: center;
+ background: #BEBEBE;
+ width: 20px;
+ height: 20px;
+ vertical-align: middle;
+ padding:5;
+}
+.chess-in{
+ margin: 0 auto;
+ width: 100%;
+ border: 9px solid #2F4F4F;
+ border-radius: 43px;
+ overflow: hidden;
+}
+.chess img {
+ width: 60px;
+ height: 60px;
+ padding:15;
+}
+  </style>
+</head>
+<body>
+	<div class="chess">
+		<div class="chess-in">
+        <div class= "chess_main">
+		    <div class="chess_letter" style="border-radius: 20px 0 0 0;"></div>
+		    <div class="chess_letter">A</div>
+	     	<div class="chess_letter">B</div>
+	    	<div class="chess_letter">C</div>
+	    	<div class="chess_letter">D</div>
+	    	<div class="chess_letter">E</div>
+	    	<div class="chess_letter">F</div>
+	    	<div class="chess_letter">G</div>
+	    	<div class="chess_letter">H</div>
+	    	<div class="chess_letter" style="border-radius: 0 20px 0 0;"></div>     
+	    </div>
+	    <div class= "chess_main">   
+		    <div class="chess_number">1</div>
+		    <div class="chess_dark"><img src="images/2e.png" alt=""></div>
+		    <div class="chess_light"><img src="images/2d.png" alt=""></div>
+	     	<div class="chess_dark"><img src="images/2f.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/2b.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/2c.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/2f.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/2d.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/2e.png" alt=""></div>	
+	    	<div class="chess_number" style=" transform: rotate(180deg);">1</div>	
+        </div>
+        <div class= "chess_main">
+	    	<div class="chess_number">2</div>
+	    	<div class="chess_light"><img src="images/2a.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/2a.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/2a.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/2a.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/2a.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/2a.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/2a.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/2a.png" alt=""></div>	
+	    	<div class="chess_number" style=" transform: rotate(180deg);">2</div>
+        </div>
+        <div class= "chess_main">
+	    	<div class="chess_number">3</div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>	
+	    	<div class="chess_number" style=" transform: rotate(180deg);">3</div>	
+        </div>
+        <div class= "chess_main">
+	    	<div class="chess_number">4</div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+		    <div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+		    <div class="chess_light"></div>
+		    <div class="chess_dark"></div>
+		    <div class="chess_light"></div>
+		    <div class="chess_dark"></div>	
+		    <div class="chess_number" style=" transform: rotate(180deg);">4</div>
+        </div>
+        <div class= "chess_main">
+	    	<div class="chess_number">5</div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>	
+	    	<div class="chess_number" style=" transform: rotate(180deg);">5</div>	
+        </div>
+        <div class= "chess_main">
+	    	<div class="chess_number">6</div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>
+	    	<div class="chess_light"></div>
+	    	<div class="chess_dark"></div>	
+	    	<div class="chess_number" style=" transform: rotate(180deg);">6</div>
+        </div>
+        <div class= "chess_main">
+	    	<div class="chess_number">7</div>
+	    	<div class="chess_dark"><img src="images/1a.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/1a.png" alt=""></div>
+		    <div class="chess_dark"><img src="images/1a.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/1a.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/1a.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/1a.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/1a.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/1a.png" alt=""></div>	
+	    	<div class="chess_number" style=" transform: rotate(180deg);">7</div>
+	    </div>	
+	    <div class= "chess_main">
+	        <div class="chess_number">8</div>
+		    <div class="chess_light"><img src="images/1e.png" alt=""></div>
+		    <div class="chess_dark"><img src="images/1d.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/1f.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/1b.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/1c.png" alt=""></div>
+	    	<div class="chess_dark"><img src="images/1f.png" alt=""></div>
+	    	<div class="chess_light"><img src="images/1d.png" alt=""></div>
+	     	<div class="chess_dark"><img src="images/1e.png" alt=""></div>	
+	    	<div class="chess_number" style=" transform: rotate(180deg);">8</div>
+        </div>
+        <div class= "chess_main">
+		    <div class="chess_letter" style="border-radius: 0 0 0 20px;"></div>
+		    <div class="chess_letter" style=" transform: rotate(180deg);">A</div>
+	     	<div class="chess_letter" style=" transform: rotate(180deg);">B</div>
+	    	<div class="chess_letter" style=" transform: rotate(180deg);">C</div>
+	    	<div class="chess_letter" style=" transform: rotate(180deg);">D</div>
+	    	<div class="chess_letter" style=" transform: rotate(180deg);">E</div>
+	    	<div class="chess_letter" style=" transform: rotate(180deg);">F</div>
+	    	<div class="chess_letter" style=" transform: rotate(180deg);">G</div>
+	    	<div class="chess_letter" style=" transform: rotate(180deg);">H</div>
+	    	<div class="chess_letter" style="border-radius: 0 0 20px 0;"></div>
+	    </div>
+    </div>
+    </div>
+</body>
